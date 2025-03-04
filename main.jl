@@ -24,5 +24,3 @@ for i in 1:epoch
     global b -= lr*dLb(Y, x, W, b)
     println("Epoch[$(i)/$(epoch)]: Loss = $(loss), W = $(W), b = $(b)")
 end
-
-# jfkalsdjfkld
